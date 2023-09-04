@@ -19,6 +19,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Analytics />
       <Nav user={user} setUser={setUser} />
 
       <Routes>
@@ -62,7 +63,6 @@ function App() {
           />
         </Route>
       </Routes>
-      <Analytics />
     </BrowserRouter>
   );
 }
