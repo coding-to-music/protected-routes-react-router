@@ -26,7 +26,7 @@ nvm use 18
 ## Environment variables:
 
 ```java
-
+none
 ```
 
 ## GitHub
